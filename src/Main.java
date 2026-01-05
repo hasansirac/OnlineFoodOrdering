@@ -37,5 +37,6 @@ public class Main {
         creditCard.pay(total);
 
         System.out.println("=== TEST COMPLETED SUCCESSFULLY ===");
+        System.out.println("Thank you for using our Food Ordering System!");
     }
 }
