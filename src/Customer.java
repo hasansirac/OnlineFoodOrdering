@@ -1,3 +1,7 @@
+/**
+ * Represents a customer interacting with the ordering system.
+ * Extends the User class to include delivery details like address and phone number.
+ */
 public class Customer extends User {
     private String address;
     private String phone;

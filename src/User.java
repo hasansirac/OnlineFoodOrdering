@@ -1,3 +1,7 @@
+/**
+ * Represents a base user entity in the system.
+ * Handles basic user data like username and password authentication.
+ */
 public class User {
 
     private String username;
