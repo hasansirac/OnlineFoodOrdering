@@ -16,7 +16,7 @@ public class Order implements Orderable {
     public void addItem(MenuItem item) {
         items.add(item);
     }
-
+    // Calculates the total price of the order by summing up all item prices
     public double calculateTotal() {
         totalAmount = 0.0;
         for (MenuItem item : items) {

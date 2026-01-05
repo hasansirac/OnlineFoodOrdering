@@ -11,7 +11,7 @@ public class Restaurant {
         this.menu = new ArrayList<>();
         this.rating = 0.0;
     }
-
+    // Adds a new dish to the restaurant's menu list dynamically
     public void addMenuItem(MenuItem item) {
         menu.add(item);
     }
