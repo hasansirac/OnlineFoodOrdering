@@ -1,3 +1,7 @@
+/**
+ * Implementation of the Payment interface for Credit Card transactions.
+ * Simulates a card payment process.
+ */
 public class CreditCardPayment implements Payment {
     private String cardNumber;
 
