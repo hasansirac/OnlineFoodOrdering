@@ -27,7 +27,11 @@ public class Order implements Orderable {
 
     @Override
     public void placeOrder() {
-        System.out.println("Order placed successfully with ID: " + orderId);
+        if (items.isEmpty()) {
+            System.out.println("Error: Cannot place an empty order!");
+        } else {
+            System.out.println("Order placed successfully with ID: " + orderId);
+        }
     }
 
     public void setPaymentMethod(Payment pm) {
